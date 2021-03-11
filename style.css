@@ -1,0 +1,138 @@
+/* font-family: 'Pacifico', cursive;(para el titulo de mi compadrito) */
+/* font-family: 'Cabin', sans-serif; (para todas las letras)*/
+/* font-family: 'Shippori Mincho B1', serif; (para el titulo de mini mercado)*/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+*{
+    font-family: 'Cabin', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0% 1.6% 1.8%;
+    align-items: center;
+    background: #1579d6;
+}
+.headNav {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+#headTitle {
+    color: #dce9f1;
+    font-size: 37px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-weight: unset;
+}
+.navButtom a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navButtom {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+.navButtom #homeButtom {
+    color: #93c5c1;
+}
+.navButtom a:hover {
+    color: #93c5c1;
+}
+.miCompadrito {
+    background: url(./img/verduras-frutas-bolsas-red-sobre-fondo-rustico-oscuro_pantalla-ancha101125-810.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 120px 80px 0%;
+}
+.infoMiCompadrito {
+    float: right;
+    background: rgba(136, 158, 161, 0.8);
+    height: 650px;
+    width: 600px;
+    border-radius: 5%;
+}
+p {
+    color: white;
+    font-size: 22px;
+    padding: 0% 6%;
+}
+.textomiCompadrito {
+    display: block;
+    flex-wrap: wrap;
+    padding: 0% 20%;
+    line-height: 30px;
+}
+.miniTitleMiCompadrito {
+    color: white;
+    font-size: 33px;
+    font-weight: unset;
+    font-family: 'Shippori Mincho B1', serif;
+    padding-right: 20%;
+}
+.titleMiCompadrito {
+    color: white;
+    font-size: 45px;
+    font-weight: unset;
+    font-family: 'Pacifico', cursive;
+    flex-wrap: wrap;
+}
+
+.titleMiCompadrito h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0%;
+}
+.horarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.horarios h1 {
+    font-weight: bold;
+    color: #fda94f;
+    font-weight: unset;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 40px;
+    margin: 0% 0%;
+}
+.horas{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+.horas p {
+    color: #fec281;
+    font-weight: bold;
+}
+hr {
+    width:15px;
+    height: 6px;
+    background: #fec281;
+    margin: 0px 0px;
+    border: none;
+}
+#buttomMiCompadrito {
+    background: #fda94f;   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+#buttomMiCompadrito:hover {
+   background: #fec281;
+}
