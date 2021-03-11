@@ -136,3 +136,44 @@ hr {
 #buttomMiCompadrito:hover {
    background: #fec281;
 }
+.puntios-de-abajo {
+    display: flex;
+    margin: 2%;
+}
+.puntos {
+    background: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin: 2%;
+}
+#one .puntos {
+    color:rgba(136, 158, 161, 0.8);
+}
+.puntos:hover {
+    color:rgba(136, 158, 161, 0.8);
+}
+#sectiondeproductos{
+    background-color: RGB(246,246,246);
+}
+.tituloDeVerduras {
+    background: url(./img/336-3364791_thumb-image-pincelada-de-tinta-png-transparent-png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sectionderectangulos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+.rectangulo {
+    background: white;
+    height: 300px;
+    width: 200px;
+}
