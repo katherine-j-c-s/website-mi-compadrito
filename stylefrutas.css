@@ -1,0 +1,189 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+*{
+    font-family: 'Cabin', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0% 1.6% 1.8%;
+    align-items: center;
+    background: #1579d6;
+}
+.headNav {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+#headTitle {
+    color: #dce9f1;
+    font-size: 37px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-weight: unset;
+}
+.navButtom a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navButtom {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+.navButtom a:hover {
+    color: #93c5c1;
+}
+.products-and-aside {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.products {
+    height: 100%;
+    width: 90%;
+    padding: 2% 0% 2% 5%;
+    background: rgba(87, 152, 250, 0.185);
+}
+.texto-de-titulo {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 37px;
+    margin: 1% 0% 3%;
+}
+.sectionderectangulos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0%;
+    justify-content: center;
+    align-items: baseline;
+}
+.rectangulo {
+    background: white;
+    height: 300px;
+    width: 200px;
+    border-color: #AAA;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0px 5px 20px 5px;
+}
+.rectangulo:hover {
+    box-shadow: 0px 18px 20px rgb(0 0 0 / 40%);
+}
+.imagine {
+    background-image: url(./img/7790895000997_02.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 180px;
+    margin: 0px 0px 9px;
+    border-radius: 10%;
+}
+.precioDelProducto {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    margin: 6px 15px;
+    color: #1579d6;
+    text-align: left;
+}
+.nombreDelProducto {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-size: 12px;
+    margin: 15px 0px 5px;
+    text-align: justify;
+}
+.buttomAgregar {
+    width: 60%;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #1579d6;
+    border-radius: 3px;
+    transition: .15s background;
+    cursor: pointer;
+    margin: auto;
+}
+#agregar {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.buttomAgregar:hover {
+    background: #006aab;
+    border: 2px solid #006aab;
+}
+.categoria-de-cosas {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+    height: 140px;
+    margin: -1% 0% 2%;
+}
+.categoria {
+    display: flex;
+    flex-direction: column;
+    margin: 25% 0% 25% 10%;
+    text-align: left;
+    cursor: pointer;
+}
+.categoria-de-cosas a{
+    font-family: 'Cabin', sans-serif; 
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fondoDelSelecionado {
+    background: rgba(245, 239, 239, 0.37);
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border-radius: 15px;
+}
+#fruta {
+    background: rgba(87, 152, 250, 0.616);
+}
+.fondoDelSelecionado:hover {
+    box-shadow: 0px 18px 20px rgb(0 0 0 / 40%);
+    border: 2px solid #006aab;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+.numerosdeAbajo {
+    display: flex;
+    justify-content: center;
+}
+.numerosdeAbajo a {
+    border: 2px solid rgba(0, 0, 0, 0.651);
+    margin: 0.5%;
+    padding: 0.5%;
+    cursor: pointer;
+}
+aside {
+    width: 10%;
+    height: 100%;
+    margin: 2%;
+}
+.rayadelAside {
+}
+/* footer {
+    background: #1579d6;
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+} */
