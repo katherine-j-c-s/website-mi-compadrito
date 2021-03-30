@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+*{
+    font-family: 'Cabin', sans-serif;
+}
+article {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0% 1.6% 1.8%;
+    align-items: center;
+    background: #1579d6;
+}
+nav a {
+    margin: 5%;
+}
+.headNav {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+#headTitle {
+    color: #dce9f1;
+    font-size: 37px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-weight: unset;
+}
+.navButtom a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navButtom {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+.navButtom #aboutButtom {
+    color: #93c5c1;
+}
+.navButtom a:hover {
+    color: #93c5c1;
+}

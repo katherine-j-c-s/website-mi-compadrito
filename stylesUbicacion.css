@@ -16,6 +16,9 @@ header {
     align-items: center;
     background: #1579d6;
 }
+nav a {
+    margin: 5%;
+}
 .headNav {
     font-size: 18px;
     text-align: center;

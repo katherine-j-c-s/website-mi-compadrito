@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: unset;
+}
+*{
+    font-family: 'Cabin', sans-serif;
+}
+article {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0% 1.6% 1.8%;
+    align-items: center;
+    background: #1579d6;
+}
+.headNav {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+#headTitle {
+    color: #dce9f1;
+    font-size: 37px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-weight: unset;
+}
+.navButtom a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navButtom {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+.navButtom #contactButtom {
+    color: #93c5c1;
+}
+.navButtom a:hover {
+    color: #93c5c1;
+}
+nav a {
+    margin: 5%;
+}
+.algunapregunta {
+    color: black;
+    font-size: 45px;
+    font-weight: unset;
+    font-family: 'Shippori Mincho B1', serif;
+    flex-wrap: wrap;
+}
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.contactUsTitle {
+    font-size: 37px;
+    font-weight: unset;
+    align-self: center;
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxessmall {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    margin: auto;
+}
+.answerBoxsmall {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #fda94f;
+}
+.answerBoxbig {
+    padding: 80px;
+    width: 600px;
+    margin-bottom: 2%;
+    border: 1px solid #fda94f;
+}
+.biggestbox {
+    text-align: start;
+    margin: 2% 0%;
+}
+.infoboxesmal {
+    margin-left: -8%;
+}
+.infoboxesmal1 {
+ margin-left: 16%;
+}
+.buttonsubmit {
+    background: #1579d6;
+    color: white;
+    font-size: 18px;
+    padding: 13px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    align-self: flex-start;
+    margin: auto;
+}
+.buttonsubmit:hover {
+    background: #0084ff;
+}
+.moreInfo {
+    display: flex;
+    box-sizing: border-box;
+    color: black;
+    margin-top: 5%;
+}
+.location {
+    background: url(./img/contact-feature-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+    height: 180px;
+}
+.PhomeNumber {
+    background: url(./img/contact-feature-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+    height: 180px;
+}
+.EmailAddress {
+    background: url(./img/contact-feature-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+    height: 180px;
+}
+.moreInfoTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+.moreInfoText {
+    font-size: 16px;
+}
+.ubicacion {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+footer {
+    background: #054f94;
+    width: 100%;
+    height: 70px;
+}

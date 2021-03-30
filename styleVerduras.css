@@ -19,6 +19,9 @@ header {
     color: white;
     text-decoration: none;
 }
+nav a {
+    margin: 5%;
+}
 #headTitle {
     color: #dce9f1;
     font-size: 37px;
